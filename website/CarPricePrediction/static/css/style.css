@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(163, 162, 162);
+}
+
+.navbar{
+    background-color: black;
+}
+.navbar a{
+    color: white;
+}
+.dropdown-menu a{
+    color: black;
+}
+
+
+.pro-title{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+
+    margin-bottom: 30px;
+}
+.pro-title a{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input-group{
+    width: 90%;
+    margin: auto;
+}
+.input-group-append button{
+    color: black;
+    font-weight: bold;
+}
+.out1{
+    width: 90%;
+    margin: auto;
+    padding-right: 10px;
+
+}
+.btn-group{
+
+}
+
+.out1 a{
+    text-align: center;
+}
+
+.out11{
+    margin-top: 15px;
+}
+
+.btn{
+    width: 100%;
+}
+.alert{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.buttonAns{
+    display: inline-block;
+    color: black;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    text-align: center;
+    border: solid;
+    border-color: black;
+}
+
+.buttonAns:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+.pro-convert{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.select-base1{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.full{
+    width: 80%;
+    margin: auto;
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+    background-color: rgb(209, 217, 221);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.foot{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.footer-logo{
+    margin: auto;
+}
+.footer-logo a{
+    color: white;
+}
+.col a{
+    color: aliceblue;
+}
