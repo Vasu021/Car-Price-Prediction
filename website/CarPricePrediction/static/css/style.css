@@ -11,7 +11,14 @@ body{
 .dropdown-menu a{
     color: black;
 }
-
+.mandatory-field{
+    color: rgb(236, 9, 9);
+}
+.center-contents{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
 
 .pro-title{
     width: 90%;
@@ -25,37 +32,21 @@ body{
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.pro-sub-title{
+    font-size: 20px;
+}
+
 .input-group{
-    width: 90%;
+    width: 60%;
     margin: auto;
 }
 .input-group-append button{
     color: black;
     font-weight: bold;
 }
-.out1{
-    width: 90%;
-    margin: auto;
-    padding-right: 10px;
 
-}
-.btn-group{
-
-}
-
-.out1 a{
-    text-align: center;
-}
-
-.out11{
-    margin-top: 15px;
-}
-
-.btn{
-    width: 100%;
-}
 .alert{
-    width: 90%;
+    width: 50%;
     margin: auto;
     margin-top: 20px;
 
@@ -126,4 +117,24 @@ body{
 }
 .col a{
     color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+/* Hide the spinner arrows */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
 }
