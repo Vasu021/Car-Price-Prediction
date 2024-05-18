@@ -66,17 +66,17 @@
         <div class="pro-title pro-sub-title">This webapp predicts the price of a car you want to sell. Try filling the details below.</div>
 
         <div class="row">
-            <div class="col center-contents">
+            <div class="col center-contents card-col">
                 City<span class="mandatory-field">*</span>
-                <select class="input-group" id="city">
+                <select class="input-group btn" id="city">
                     {% for location in locations %}
                         <option value="{{ location }}">{{ location }}</option>
                     {% endfor %}
                 </select>
             </div>
-            <div class="col center-contents">
+            <div class="col center-contents card-col">
                 Year Of Purchase<span class="mandatory-field">*</span>
-                <select class="input-group" id="yearOfPurchase">
+                <select class="input-group btn" id="yearOfPurchase">
                     {% for year in years %}
                         <option value="{{ year }}">{{ year }}</option>
                     {% endfor %}
@@ -84,17 +84,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="col center-contents">
+            <div class="col center-contents card-col">
                 Fuel Type<span class="mandatory-field">*</span>
-                <select class="input-group" id="fuelType">
+                <select class="input-group btn" id="fuelType">
                     {% for fuel in fuel_type %}
                         <option value="{{ fuel }}">{{ fuel }}</option>
                     {% endfor %}
                 </select>
             </div>
-            <div class="col center-contents">
+            <div class="col center-contents card-col">
                 Transmission<span class="mandatory-field">*</span>
-                <select class="input-group" id="transmission">
+                <select class="input-group btn" id="transmission">
                     {% for tm in transmission %}
                         <option value="{{ tm }}">{{ tm }}</option>
                     {% endfor %}
@@ -102,17 +102,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="col center-contents">
+            <div class="col center-contents card-col">
                 Owner Type<span class="mandatory-field">*</span>
-                <select class="input-group" id="ownerType">
+                <select class="input-group btn" id="ownerType">
                     {% for ot in owner_type %}
                         <option value="{{ ot }}">{{ ot }}</option>
                     {% endfor %}
                 </select>
             </div>
-            <div class="col center-contents">
+            <div class="col center-contents card-col">
                 No. Of Seats<span class="mandatory-field">*</span>
-                <select class="input-group" id="seats">
+                <select class="input-group btn" id="seats">
                     {% for seat in seats %}
                         <option value="{{ seat }}">{{ seat }}</option>
                     {% endfor %}
@@ -121,40 +121,40 @@
         </div>
 
         <div class="row">
-            <div class="col center-contents">
+            <div class="col center-contents card-col">
                 Kilometers Driven<span class="mandatory-field">*</span>
-                <input class="input-group" type="number" id="kilometersDriven" name="kilometersDriven" min="0" max="9999999">
+                <input class="input-group btn" type="number" id="kilometersDriven" name="kilometersDriven" min="0" max="9999999">
             </div>
-            <div class="col center-contents">
+            <div class="col center-contents card-col">
                 Mileage (kmpl)<span class="mandatory-field">*</span>
-                <input class="input-group" type="number" id="mileage" name="mileage" min="0" max="999">
+                <input class="input-group btn" type="number" id="mileage" name="mileage" min="0" max="999">
             </div>
         </div>
         
         <div class="row">
-            <div class="col center-contents">
+            <div class="col center-contents card-col">
                 Engine (CC)<span class="mandatory-field">*</span>
-                <input class="input-group" type="number" id="engine" name="engine" min="0" max="99999">
+                <input class="input-group btn" type="number" id="engine" name="engine" min="0" max="99999">
             </div>
-            <div class="col center-contents">
+            <div class="col center-contents card-col">
                 Power (bhp)<span class="mandatory-field">*</span>
-                <input class="input-group" type="number" id="power" name="power" min="0" max="99999">
+                <input class="input-group btn" type="number" id="power" name="power" min="0" max="99999">
             </div>
         </div>
 
         <div class="row">
-            <div class="col center-contents">
+            <div class="col center-contents card-col">
                 Do you know the original price in INR?<span class="mandatory-field">*</span>
-                <select class="input-group" id="originalPriceDetail" style="width: auto;" onchange="originalPriceDetailChange()">
+                <select class="input-group btn" id="originalPriceDetail" style="width: auto;" onchange="originalPriceDetailChange()">
                     <option value="0">No</option>
                     <option value="1">Yes</option>
                 </select>
             </div>
         </div>
         <div class="row" id="hiddenOriginalPrice" style="display: none;">
-            <div class="col center-contents">
+            <div class="col center-contents card-col">
                 Original Price in INR<span class="mandatory-field">*</span>
-                <input class="input-group" type="number" id="originalPrice" style="width: auto;" name="originalPrice" min="0" max="999999999">
+                <input class="input-group btn" type="number" id="originalPrice" style="width: auto;" name="originalPrice" min="0" max="999999999">
             </div>
         </div>
 

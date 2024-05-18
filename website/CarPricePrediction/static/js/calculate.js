@@ -30,6 +30,7 @@ function calculate(){
         newAlert("Original Price should be in range of INR 1000-999999999", "Warning", "warning");
     }
     else{
+        $('#calculatedPrice').html("Predicting...");
         var object = {
             'city' : city,
             'yearOfPurchase' : yearOfPurchase,
@@ -51,6 +52,10 @@ function calculate(){
         xhr.onreadystatechange = function(){
             if(xhr.readyState == XMLHttpRequest.DONE){
                 $('#calculatedPrice').html("Prediction : INR " + xhr.responseText);
+                newAlert("Success!!!", "Success", "success");
+            }
+            else{
+                newAlert("Something went wrong.", "Error", "error");
             }
         }
         xhr.onload = function(){};
